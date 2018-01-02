@@ -1,4 +1,4 @@
-[![Travis-CI Build Status](https://travis-ci.org/joelgombin/qualvar.svg?branch=master)](https://travis-ci.org/joelgombin/qualvar)
+[![Travis-CI Build Status](https://travis-ci.org/joelgombin/qualvar.svg?branch=master)](https://travis-ci.org/joelgombin/qualvar) [![DOI](https://zenodo.org/badge/17182/joelgombin/qualvar.svg)](https://zenodo.org/badge/latestdoi/17182/joelgombin/qualvar)
 
 # What is this package about?
 
@@ -6,14 +6,20 @@ In 1973, Wilcox published a paper presenting various indices of qualitative vari
 
 Wilcox presents six indices that can be used to measure qualitative variation. The qualvar package implements these indices so that R users can easily use them.
 
-See the [vignette](./inst/doc/wilcox1973.html) to learn more.
+See the [vignette](http://htmlpreview.github.io/?https://github.com/joelgombin/qualvar/blob/master/inst/doc/wilcox1973.html) to learn more.
 
 #Installation
 
-This package will (hopefully) soon be on CRAN. Until then, you can install it via `devtools`:
+This package is now on CRAN, you can install the stable version with:
+
+```{r}
+install.packages("qualvar")
+```
+
+You can also install the development version from Github via `devtools`:
 
 ```{r}
 # if necessary, install devtools
-install.packages("devtools")
+# install.packages("devtools")
 devtools::install_github("joelgombin/qualvar")
 ```
